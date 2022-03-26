@@ -1,10 +1,12 @@
 <template>
   <div class="hello">
-    <h1>Build the Cake of your dreams</h1>
-    <p>Use our new tool to build your own cake.</p>
-    <button class="build-btn">
-      <router-link class="btn-text" to="/about">Build Cake</router-link>
-    </button>
+    <div class="hello-content">
+      <h1>Build the Cake of your dreams</h1>
+      <p>Use our new tool to build your own cake.</p>
+      <button class="build-btn">
+        <router-link class="btn-text" to="/about">Build Cake</router-link>
+      </button>
+    </div>
   </div>
 </template>
 
@@ -27,6 +29,19 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-image: url(https://www.pngplay.com/wp-content/uploads/2/Cake-PNG-HD-Quality.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hello-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.801);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 .hello h1 {
   font-family: Junitta;
@@ -35,6 +50,7 @@ export default {
 }
 .hello p {
   font-size: 1.5rem;
+  text-align: center;
 }
 .build-btn {
   background-color: var(--purple);
@@ -57,6 +73,9 @@ export default {
 @media screen and (max-width: 450px) {
   .hello h1 {
     font-size: 3rem;
+  }
+  .hello p {
+    font-size: 1rem;
   }
   .build-btn {
     font-size: 1rem;

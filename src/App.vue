@@ -53,8 +53,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 :root {
   --purple: #6242c1bb;
-  --beige: #fcf8f8;
+  --beige: #b8a3f8bb;
   --yellow: #f2b233;
+}
+#app {
+  background-color: var(--beige);
 }
 body {
   font-family: "Poppins", sans-serif;
