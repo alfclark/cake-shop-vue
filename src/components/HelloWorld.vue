@@ -33,6 +33,9 @@ export default {
   font-size: 6rem;
   text-align: center;
 }
+.hello p {
+  font-size: 1.5rem;
+}
 .build-btn {
   background-color: var(--purple);
   font-size: 1.5rem;
