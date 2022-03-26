@@ -1,24 +1,13 @@
-# cake-shop-vue
+# Sugar Panda Cake Shop
 
-## Project setup
-```
-npm install
-```
+[Live Preview](https://sugarpanda.netlify.app)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Technologies used:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- HTML
+- CSS
+- JS
+- VUE
+- VUE Router
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Live Preview](https://sugarpanda.netlify.app)
