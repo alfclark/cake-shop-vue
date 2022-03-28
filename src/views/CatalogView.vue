@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="catalog">
+    <h1>This is a catalog page</h1>
   </div>
   <FooterComp />
 </template>
@@ -10,7 +10,7 @@
 import FooterComp from "@/components/FooterComp.vue";
 
 export default {
-  name: "AboutView",
+  name: "CatalogView",
   components: {
     FooterComp,
   },
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-.about {
+.catalog {
   height: 90vh;
 }
 </style>

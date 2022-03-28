@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="build">
+    <h1>This is the build page</h1>
   </div>
   <FooterComp />
 </template>
@@ -10,7 +10,7 @@
 import FooterComp from "@/components/FooterComp.vue";
 
 export default {
-  name: "AboutView",
+  name: "BuildView",
   components: {
     FooterComp,
   },
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped>
-.about {
+.build {
   height: 90vh;
 }
 </style>
