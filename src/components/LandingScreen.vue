@@ -4,7 +4,7 @@
       <h1>Build the Cake of your dreams</h1>
       <p>Use our new tool to build your own cake.</p>
       <button class="build-btn">
-        <router-link class="btn-text" to="/about">Build Cake</router-link>
+        <router-link class="btn-text" to="/build">Build Cake</router-link>
       </button>
     </div>
   </div>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "LandingScreen",
 };
 </script>
 
@@ -29,9 +29,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url(https://www.pngplay.com/wp-content/uploads/2/Cake-PNG-HD-Quality.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .hello-content {
   display: flex;
@@ -39,8 +36,6 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.801);
-  border-radius: 1rem;
   padding: 1rem;
 }
 .hello h1 {
