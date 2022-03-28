@@ -231,7 +231,7 @@
 
                         <button
                           type="button"
-                          class="btn btn-dark btn-block btn-lg"
+                          class="btn btn-block btn-lg"
                           data-mdb-ripple-color="dark"
                         >
                           Proceed to Payment
@@ -265,5 +265,13 @@ export default {
 <style scoped>
 .cart {
   height: 100%;
+}
+.p-5 .btn-block {
+  background-color: #6242c1c9;
+  color: white;
+}
+.p-5 .btn-block:hover {
+  background-color: #434344;
+  transition: 0.4s;
 }
 </style>
