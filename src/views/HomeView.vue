@@ -1,17 +1,20 @@
 <template>
   <div class="home">
-    <HelloWorld />
+    <LandingScreen />
+    <FooterComp />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import LandingScreen from "@/components/LandingScreen.vue";
+import FooterComp from "@/components/FooterComp.vue";
 
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
+    LandingScreen,
+    FooterComp,
   },
 };
 </script>
