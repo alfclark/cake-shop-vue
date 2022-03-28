@@ -10,5 +10,3 @@
 - Bootstrap
 - VUE
 - VUE Router
-
-[Live Preview](https://sugarpanda.netlify.app)
