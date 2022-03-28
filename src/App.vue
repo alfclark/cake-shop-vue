@@ -25,21 +25,18 @@
           </li>
           <li class="nav-item">
             <a class="nav-link"
-              ><router-link to="/about">Catalog</router-link></a
+              ><router-link to="/catalog">Catalog</router-link></a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link"
-              ><router-link to="/about">Build Your Cake</router-link></a
+              ><router-link to="/build">Build Your Cake</router-link></a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link"
-              ><router-link to="/about"
-                ><router-link to="/about"
-                  ><i
-                    class="fa-solid fa-cart-shopping"
-                  ></i></router-link></router-link
+              ><router-link to="cart"
+                ><i class="fa-solid fa-cart-shopping"></i></router-link
             ></a>
           </li>
         </ul>
