@@ -62,9 +62,16 @@ body {
 .navbar {
   padding: 0 3rem 0 3rem;
   height: 10vh;
+  background-color: #6242c18f;
 }
 .logo {
   width: 4rem;
+}
+.navbar-collapse {
+  padding: 1rem;
+}
+.navbar-toggler {
+  background-color: #6242c18f;
 }
 
 a {
