@@ -7,6 +7,7 @@
 - HTML
 - CSS
 - JS
+- Bootstrap
 - VUE
 - VUE Router
 
