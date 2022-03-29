@@ -69,6 +69,7 @@ body {
   padding: 0 3rem 0 3rem;
   height: 10vh;
   z-index: 3;
+  background-color: var(--black);
 }
 .router {
   display: flex;
