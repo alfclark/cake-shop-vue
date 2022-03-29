@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand d-flex justify-content-center align-items-center">
         <router-link class="router" to="/">
@@ -82,8 +82,9 @@ body {
 .navbar-collapse {
   padding: 1rem;
 }
-.navbar-toggler {
-  background-color: var(--brown);
+.navbar-nav {
+  background-color: var(--black);
+  padding: 1rem;
 }
 .brand-name {
   color: white;
