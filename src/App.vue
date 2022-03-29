@@ -39,6 +39,13 @@
                 ><i class="fa-solid fa-cart-shopping"></i></router-link
             ></a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              ><router-link to="login"
+                ><i class="fa-solid fa-user"></i>Login</router-link
+              ></a
+            >
+          </li>
         </ul>
       </div>
     </div>
