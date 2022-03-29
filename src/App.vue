@@ -1,9 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand"
-        ><img class="logo" src="@/assets/logo.png" alt=""
-      /></a>
+      <a class="navbar-brand d-flex justify-content-center align-items-center">
+        <router-link class="router" to="/">
+          <img class="logo" src="@/assets/logo.png" alt="" />
+          <h3 class="brand-name">SugarPanda</h3>
+        </router-link>
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,9 +23,7 @@
           <li class="nav-item">
             <a class="nav-link"><router-link to="/">Home</router-link></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"><router-link to="/about">About</router-link></a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link"
               ><router-link to="/catalog">Catalog</router-link></a
@@ -34,17 +35,13 @@
             >
           </li>
           <li class="nav-item">
+            <a class="nav-link"><router-link to="/about">About</router-link></a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link"
               ><router-link to="cart"
                 ><i class="fa-solid fa-cart-shopping"></i></router-link
             ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"
-              ><router-link to="login"
-                ><i class="fa-solid fa-user"></i>Login</router-link
-              ></a
-            >
           </li>
         </ul>
       </div>
@@ -56,12 +53,14 @@
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 :root {
-  --purple: #6242c1bb;
+  --black: #080808;
+  --brown: #8f7865;
   --beige: #b8a3f8bb;
   --yellow: #f2b233;
+  --grey: #66523e;
 }
 #app {
-  background-color: var(--beige);
+  background-color: var(--black);
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -69,7 +68,12 @@ body {
 .navbar {
   padding: 0 3rem 0 3rem;
   height: 10vh;
-  background-color: #6242c18f;
+  z-index: 3;
+}
+.router {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo {
   width: 4rem;
@@ -78,17 +82,20 @@ body {
   padding: 1rem;
 }
 .navbar-toggler {
-  background-color: #6242c18f;
+  background-color: var(--brown);
 }
-
+.brand-name {
+  color: white;
+  font-size: 1rem;
+}
 a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 500;
   font-size: 1;
 }
 a:hover {
-  color: var(--purple);
+  color: var(--brown);
   transition: 0.4s;
 }
 </style>
