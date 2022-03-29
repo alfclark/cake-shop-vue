@@ -1,7 +1,7 @@
 <template>
   <div class="cart">
     <div class="cart-wrapper">
-      <section class="h-100 h-custom" style="background-color: #d2c9ff">
+      <section class="h-100 h-custom">
         <div class="container py-5 h-100">
           <div
             class="row d-flex justify-content-center align-items-center h-100"
@@ -267,11 +267,11 @@ export default {
   height: 100%;
 }
 .p-5 .btn-block {
-  background-color: #6242c1c9;
+  background-color: var(--brown);
   color: white;
 }
 .p-5 .btn-block:hover {
-  background-color: #434344;
+  background-color: var(--grey);
   transition: 0.4s;
 }
 </style>
