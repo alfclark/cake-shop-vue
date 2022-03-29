@@ -1,8 +1,5 @@
 <template>
-  <footer
-    class="text-center text-white"
-    style="background-color: var(--purple)"
-  >
+  <footer class="text-center text-white">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
@@ -86,5 +83,8 @@ export default {
 i:hover {
   color: rgb(48, 47, 48);
   transition: 0.4s;
+}
+footer {
+  background-color: #8f786518;
 }
 </style>
