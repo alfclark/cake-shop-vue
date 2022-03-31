@@ -35,7 +35,7 @@ export default {
 .hello-image {
   height: 100%;
   width: 50%;
-  background-image: url("https://images.unsplash.com/photo-1512223792601-592a9809eed4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80");
+  background-image: url("https://images.unsplash.com/photo-1551892644-be6717d0abff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   opacity: 65%;
   background-color: #cccccc;
 }
